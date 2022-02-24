@@ -1,0 +1,20 @@
+@charset "utf-8";
+
+.hide{
+  width:0; height:0;
+  font-size:0; line-height: 0;
+  position:absolute; visibility: hidden;
+}
+
+/* 공통 */
+header>div,article{
+  width:1320px;
+  margin: 0 auto;
+  background-color:pink;
+}
+.title{
+  font-size:48px;
+}
+/* .text{
+  font-size:
+} */
