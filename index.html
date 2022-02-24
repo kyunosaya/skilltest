@@ -138,52 +138,103 @@
       <li><a href="">React</a></li>
     </ul>
     <!-- gallery -->
-    <div id="show">
-      <div id="all">
+    <div class="box">
+     <div id="show">
+       <div id="all">
         <figure>
-          <figcaption><img src="" alt="">work01</figcaption>
-          <figcaption><img src="" alt="">work02</figcaption>
-          <figcaption><img src="" alt="">work03</figcaption>
-          <figcaption><img src="" alt="">work04</figcaption>
-          <figcaption><img src="" alt="">work05</figcaption>
-          <figcaption><img src="" alt="">work06</figcaption>
+          <img src="./images/pic01.png" alt="work01">
+           <figcaption>work01</figcaption>         
         </figure>
-      </div>   <!-- #all -->
-    </div>   <!-- #show -->
+        <figure>
+          <img src="./images/pic02.png" alt="work02">
+           <figcaption>work02</figcaption>         
+        </figure>
+        <figure>
+          <img src="./images/pic03.png" alt="work03">
+           <figcaption>work03</figcaption>         
+        </figure>
+        <figure>
+          <img src="./images/pic04.png" alt="work04">
+           <figcaption>work04</figcaption>         
+        </figure>
+        <figure>
+          <img src="./images/pic01.png" alt="work05">
+           <figcaption>work05</figcaption>         
+        </figure>
+        <figure>
+          <img src="./images/pic02.png" alt="work06">
+           <figcaption>work06</figcaption>         
+        </figure>
+
+       </div>   <!-- #all -->
+     </div>   <!-- #show -->
+    </div>
     <p class="prev"></p>
     <p class="next"></p>
   </div>
 </article>
 
 <!-- #box06 -->
-  <div id="box06">
+<article id="box06">
+  <div>
+    <h3>Contact</h3>
+    <div>
+      <div>
+        <p class="title">Have you Any Project? <br>
+        Please Drop a Message</p>
+        <p class="text">text추가</p>
+      </div>
+    </div>
+  </div>
+</article>
+
+
+
+<article id="box06">
+  <div>
     <h3>Contact</h3>
     <div>
       <p class="title"></p>
       <p class="test"></p>
       <dl>
-        <dt>Address</dt>
+        <dt>Address:</dt>
         <dd>54, Hangeulbiseok-ro 52-gil, Nowon-gu, Seoul, Republic of Korea</dd>
       </dl>
       <dl>
-        <dt>Phone</dt>
-        <dd>(02)3392 0203</dd>
+        <dt>Phone:</dt>
+        <dd><a href="mailto">(02)3392 0203</a></dd>
       </dl>
       <dl>
-        <dt>Email</dt>
-        <dd>saya0203@naver.com</dd>
+        <dt>Email:</dt>
+        <dd><a href="tel">saya0203@naver.com</a></dd>
       </dl>
     </div>
-    <form action="">
-      <ul>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <p><input type="submit" value="submit"></p>
+    <form action="#" method="post">
+      <fieldset>
+        <legend class="hide">나에게 메일로</legend>
+        <ul>
+        <li>
+          <label for="userName">Name</label>
+          <input type="text" id="userName" placeholder="Name" required>
+        </li>
+        <li>
+          <label for="userEmail">Email</label>
+          <input type="email" id="userEmail" placeholder="Email" required>
+        </li>
+        <li>
+          <label for="ueserPhone">Phone</label>
+          <input type="tel" id="ueserPhone" placeholder="Phone" required>
+        </li>
+        <li>
+          <label for="userMessage">Message</label>
+          <textarea id="userMessage" cols="30" rows="10" placeholder="나에게 메세지를"></textarea>
+        </li>
       </ul>
+      <p><input type="submit" value="submit"></p>
+      </fieldset>
     </form>
   </div>
+</article>
 
 <!-- aside -->
   <aside>
@@ -201,7 +252,7 @@
 
 <!-- footer -->
   <footer>
-    <small></small>
+    <small>&copy;Copyright (c) 2022 my portfolio by smg all right reserved</small>
   </footer>
 </body>
 </html>
