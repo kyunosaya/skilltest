@@ -82,3 +82,37 @@ nav>ul>li>a{
   background-color: red;
 }
 nav .close{}
+
+/* box01 */
+#box01{
+  position: relative;
+  /* height:100% - 70px; */
+  height : calc(100vh - 70px); /* vh:화면의 전체높이 */
+  background-color: aqua;
+}
+#box01>div{}
+#box01>div>h2{
+  position:absolute;
+  left:50%; top:50%;
+  font-family: 'Raleway',sans-serif;
+  font-size:70px;
+  color:blue;
+  font-weight: lighter;
+  flex-wrap: wrap;
+  /* margin-top:-15%; */
+  margin-left:-15%;
+}
+#box01>div>ul{
+  width:400%;
+  height:100%;
+  flex-wrap:wrap;
+  /* text-align: center; */
+}
+#box01>div>ul>li{
+  width:25%;
+  height:100%;
+  text-indent:-9999px;
+}
+#box>div>.no{}
+#box>div>.prev{}
+#box>div>.next{}
