@@ -1,20 +1,84 @@
 @charset "utf-8";
 
+/* font-family: 'Raleway', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap'); /* 글씨체 연결 */
+
+
+body{
+  font:18px/30px Arial,sans-serif;
+}
+img{
+  max-width: 100%;
+}
 .hide{
   width:0; height:0;
   font-size:0; line-height: 0;
   position:absolute; visibility: hidden;
 }
 
+/* layout -> */
+
 /* 공통 */
-header>div,article{
+header>div,article>div{
   width:1320px;
   margin: 0 auto;
-  background-color:pink;
+  /* background-color:pink; */
+}
+#box02,#box03,#box04,#box05,#box06{
+  padding:85px 0;
+}
+div>h3{
+  font-size:48px;
+  text-align: center;
+  margin-bottom: 35px;
 }
 .title{
-  font-size:48px;
+  font-size:30px;
+  margin-bottom: 50px;
 }
-/* .text{
-  font-size:
-} */
+.text{
+  margin-bottom: 50px;
+}
+
+/* header */
+header{
+  padding: 18px 0;
+  background-color: #000;
+  position:relative; /* 타블렛,모바일 버튼을 위한 포지션 */
+}
+header>div{
+  display: flex;
+  flex-wrap:wrap;
+  justify-content: space-between;
+}
+header h1>a{
+  font-family: '나눔고딕',Arial,sans-serif;
+  font-size:30px;
+  font-weight: bold;
+  color:white;
+}
+
+nav{}
+nav>ul{
+  display:flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+nav>ul>li{
+  margin-left:40px;
+  color:white;
+}
+nav>ul>li>a{
+  font-weight:bold;
+}
+
+/* header 버튼 */
+#btn{
+  width:30px;
+  height:30px;
+  position:absolute;
+  right:18px; top:18px;
+  display: none;
+  background-color: red;
+}
+nav .close{}
