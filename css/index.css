@@ -80,7 +80,7 @@ nav>ul>li>a{
   position:absolute;
   right:18px; top:18px;
   display: none;
-  background-color: red;
+  /* background-color: red; */
 }
 nav .close{}
 
@@ -303,4 +303,4 @@ nav .close{}
 
 
 /* box06 */
-#box06{} /* 집에서 직접 해보기, 선생님 html확인해보기. */
+#box06{} /* 집에서 직접 해보기 */
