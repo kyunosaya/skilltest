@@ -103,8 +103,16 @@ nav.close{
     }
 
     /* box03 */
-
-
+#box03>div>div{
+    padding-left: 0px;
+    }
+#box03>div>div>figure{
+    position:static;
+    text-align: center;
+    }
+#box03 .title{
+    text-align: center;
+    }
 }/*  */
 
 
