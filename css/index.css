@@ -388,8 +388,6 @@ nav .close{}
   color:#777;
 }
 
-/* aside */
-
 /* footer */
 footer{
   background-color:#333333;
@@ -399,3 +397,10 @@ footer{
   font:15px/110px 'Raleway',sans-serif;
   line-height: 1;
 }
+
+/* aside */
+aside{}
+aside>ul{}
+aside>ul>li{}
+aside>ul>li>a{}
+aside>p.top{}
