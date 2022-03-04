@@ -98,7 +98,12 @@ nav.close{
     }
 
     /* box02 */
-    
+#box02>div{
+    justify-content:space-evenly;
+    }
+
+    /* box03 */
+
 
 }/*  */
 
