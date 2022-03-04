@@ -330,8 +330,8 @@ nav .close{}
   background: url('../images/contact_icon_01.png') no-repeat left center;
   background-size:22px;
 }
-#box06>div>div>div dl:nth-child(2)>dt{background-image: url('../images/contact_icon_02.png');}
-#box06>div>div>div dl:nth-child(3)>dt{background-image: url('../images/contact_icon_04.png');}
+#box06>div>div>div dl:nth-child(4)>dt{background-image: url('../images/contact_icon_03.png');}
+#box06>div>div>div dl:nth-child(5)>dt{background-image: url('../images/contact_icon_02.png');}
 #box06>div>div>div dl>dd{
   padding-left:37px;
 }
@@ -388,61 +388,14 @@ nav .close{}
   color:#777;
 }
 
-
-
-
-/* 혼자 해본 box06
-#box06{
-  background-color:#9c9491;
-  font-family:'Raleway',sans-serif;
-}
-#box06>div{
-  color:white;
-}
-#box06>div>h3{margin-bottom: 50px;}
-#box06>div>div{
-  display: flex;
-  flex-wrap:wrap;
-  justify-content: space-between;
-}
-#box06>div>div>div>{
-  width:50%;
-}
-#box06>div>div>div>.title{}
-#box06>div>div>div>.text{
-  width:450px;
-}
-#box06>div>div>div>dl{}
-
-#box06>div>div>div>dl>dt{}
-
-#box06>div>div>div>dl>dd{
-  width:370px;
-}
-
-form{
-  width:445px; height:525px;
-  background-color:white;
-  box-sizing: border-box;
-  padding:28px 20px 18px;
-  float:right;
-}
-form>fieldset{}
-form>fieldset>ul{}
-form>fieldset>ul>li{}
-form>fieldset>ul>li>label{}
-form>fieldset>ul>li>input{}
-form>fieldset>p{} */
-
 /* aside */
 
 /* footer */
 footer{
-  width:100%;
   background-color:#333333;
   text-align: center;
-}
-small{
-  font:15px/110px 'Raleway',sans-serif;
+  padding:40px 0;
   color:white;
+  font:15px/110px 'Raleway',sans-serif;
+  line-height: 1;
 }
