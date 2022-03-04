@@ -301,8 +301,10 @@ nav .close{}
 #box05 .box>.prev{}
 #box05 .box>.next{}
 
-
 /* box06 */
+#box06{}
+
+/* box06
 #box06{
   background-color:#9c9491;
   font-family:'Raleway',sans-serif;
@@ -343,7 +345,7 @@ form>fieldset>ul{}
 form>fieldset>ul>li{}
 form>fieldset>ul>li>label{}
 form>fieldset>ul>li>input{}
-form>fieldset>p{}
+form>fieldset>p{} */
 
 /* aside */
 
