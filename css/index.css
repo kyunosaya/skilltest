@@ -2,7 +2,7 @@
 
 /* font-family: 'Raleway', sans-serif; */
 @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap'); /* 글씨체 연결 */
-
+/* 신경쓸 거 없음 : auto, 50%, 25%, 33.3333% */
 
 body{
   font:18px/30px Arial,sans-serif;
@@ -21,7 +21,7 @@ img{
 
 /* 공통 */
 header>div,article>div{
-  width:1320px;
+  width:98%; /* 1320px; */
   margin: 0 auto;
   /* background-color:pink; */
 }
@@ -59,7 +59,6 @@ header h1>a{
   color:white;
 }
 
-nav{}
 nav>ul{
   display:flex;
   justify-content: flex-end;
@@ -72,6 +71,7 @@ nav>ul>li{
 nav>ul>li>a{
   font-weight:bold;
 }
+nav.close{}
 
 /* header 버튼 */
 #btn{
@@ -82,7 +82,6 @@ nav>ul>li>a{
   display: none;
   /* background-color: red; */
 }
-nav .close{}
 
 /* box01 */
 #box01{
@@ -154,9 +153,8 @@ nav .close{}
 }
 
 /* #box02 */
-#box02{}
 #box02>div{
-  width:980px; /* height:360px; */
+  width:98%; /* 980px */ /* height:360px; */
   margin:0 auto;
   /* background-color:green; */
   display:flex;
@@ -164,7 +162,7 @@ nav .close{}
   justify-content: space-between;
 }
 #box02>div>dl{
-  width:268px;
+  width:27.3469387755102%; /* 268px;  268/980*100*/
   padding:140px 0 54px;
   text-align: center;
   color:white;
@@ -186,12 +184,11 @@ nav .close{}
 #box03{
   background-color: #e8e8e8;
 }
-#box03>div{}
-#box03>div>h3{}
 #box03>div>div{
-  width:1100px;
+  width:98%;/* 1100px; */
   margin:0 auto;
   /* background-color: yellowgreen; */
+  /* absolute -> px 정리여서 padding-left 건들면 X */
   padding-left:440px;
   box-sizing: border-box;
   position:relative;
@@ -210,13 +207,8 @@ nav .close{}
   border-radius:27px;
   background-color: #9c9491;
 }
-#box03>div>div>figure>figcaption{}
-#box03>div>div>div{}
-#box03>div>div>div>p{}
 
 /* #box04 */
-#box04{}
-#box04>div{}
 #box04>div>div{
   display:flex;
   flex-wrap:wrap;
@@ -225,9 +217,8 @@ nav .close{}
   width:50%;
 }
 #box04>div>div>div>.text{
-  width:480px;
+  width:74.24242424%;/* 490px 1320/2 490/660*100*/;
 }
-#box04>div>div>p{}
 #box04>div>div>ul{
   width:50%;
 }
@@ -261,7 +252,6 @@ nav .close{}
 #box05 a{
   color:#fff;
 }
-#box05>div{}
 #box05>div>.text{
   width:60%;
   margin:0 auto 50px;
@@ -279,7 +269,6 @@ nav .close{}
   line-height: 1;
 }
 #box05>div>ul>li:nth-child(1){border-left:none;}
-#box05>div>ul>li>a{}
 
   /* 전체 : 버튼 */
 #box05 .box{}
@@ -310,9 +299,8 @@ nav .close{}
 #box06 a{
   color:white;
 }
-#box06>div{}
 #box06>div>div{
-  width:1100px;
+  width:98%;/* 1100px; */
   margin:0 auto;
   display:flex;
   flex-wrap:wrap;
@@ -346,9 +334,6 @@ nav .close{}
   background-color: white;
   padding:20px;
 }
-#box06>div form>fieldset>ul{
-  /* background-color:green; */
-}
 #box06>div form>fieldset>ul>li{
   margin-bottom:20px;
 }
@@ -377,7 +362,6 @@ nav .close{}
   border-radius: 4px;
   text-indent:15px;
 }
-#box06>div form>fieldset>p{}
 #box06>div form>fieldset>p>input{
   width:100%;
   box-sizing: border-box;
@@ -399,7 +383,6 @@ footer{
 }
 
 /* aside */
-aside{}
 aside>ul{
   position:fixed;
   right:10px; top:50%;
