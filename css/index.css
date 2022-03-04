@@ -71,7 +71,12 @@ nav>ul>li{
 nav>ul>li>a{
   font-weight:bold;
 }
-nav.close{}
+nav.close{
+  position: absolute;
+  right:20px; top:20px;
+  width:30px; height:30px;
+  background-color: red;
+}
 
 /* header 버튼 */
 #btn{
@@ -88,7 +93,8 @@ nav.close{}
   position: relative;
   /* height:100% - 70px; */
   height : calc(100vh - 70px); /* vh:화면의 전체높이 */
-  background-color: aqua;
+  /* background-color: aqua; */
+  overflow: hidden;
 }
 #box01>h2{
   position:absolute;
