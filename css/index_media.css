@@ -137,7 +137,78 @@ nav.close{
       }
 
       /* box05 */
-      
+    /* 전체 : 버튼 */
+      #box05 .box{
+          position: relative;
+      }
+      #box05 #show{
+          width:80vw;
+          margin:0 auto;
+      }
+      #box05 #all{
+          width:160vw;
+        /* display:flex;
+        flex-wrap:wrap;
+        justify-content: space-around; */
+      }
+      #box05 #all>figure{
+        width:24vw;
+        margin-bottom:0;
+        margin: 0 1.333333vw 0px;
+      }
+      #box05 #all>figure>img{margin-bottom:15px;}
+        /* 버튼 군단 */
+#box05 .box>.prev{
+    position: absolute;
+    top:50%; left:3vw;
+    width:3vw; height:3vw;
+    background-color: red;
+}
+#box05 .box>.next{
+    position: absolute;
+    top:50%; right:3vw;
+    width:3vw; height:3vw;
+    background-color: red;
+}
+
+
+/* box06*/
+  #box06>div>div{
+    width:88vw;
+    margin:0 auto;
+    display: block;
+  }
+  #box06>div>div>div{
+    width:auto;
+    /* margin-bottom: 45px; */
+  }
+  #box06>div>div>div .title{
+    text-align: center;
+  }
+  #box06>div>div>div .text{
+    text-align: center;
+    width:auto;
+  }
+  #box06>div>div>div dl{
+    width:76vw;
+    margin-bottom: 20px;
+    margin:0 auto 1px;
+  }
+  #box06>div>div>div dl>dt{
+    display:inline-block;
+  }
+  #box06>div>div>div dl>dd{
+    display:inline-block;
+    padding-left:0px;
+  }
+
+  #box06>div>div>form{
+    width:76vw;
+    padding:0 0px;
+    margin:0 auto;
+  }
+
+  
 }/*  */
 
 
