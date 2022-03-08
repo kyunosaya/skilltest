@@ -405,14 +405,14 @@ nav.close{
           position:absolute;
           left:2.5vw; top:50%;
           margin-top:-2.5vw;
-          background-color: aqua;
+          background-color: red;
       }
       #box05 .box>.next{
         width:5vw; height:5vw;
         position:absolute;
         right:2.5vw; top:50%;
         margin-top:-2.5vw;
-        background-color: aqua;
+        background-color: red;
       }
 
 
