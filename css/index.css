@@ -59,6 +59,7 @@ header h1>a{
   color:white;
 }
 
+nav{}
 nav>ul{
   display:flex;
   justify-content: flex-end;
@@ -70,6 +71,7 @@ nav>ul>li{
 }
 nav>ul>li>a{
   font-weight:bold;
+  color:white;
 }
 nav.close{
   position: absolute;
